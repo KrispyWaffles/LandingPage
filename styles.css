@@ -23,7 +23,6 @@ nav ul {
     list-style-type: none;
     margin: 0;
     
-
 }
 
 .hero-container {
@@ -48,7 +47,8 @@ a {
 
 .hero-row {
     display: flex;
-    justify-content: center;
+    
+   
     color: #ffffff;
     width: 70%;
 }
@@ -125,25 +125,25 @@ img {
 
 
 
-.hero-row, .column-1 {
-    /* display: flex;
+/* .hero-row, .column-1 {
+    display: flex;
     justify-content: center;
     text-decoration: none;
     color: #ffffff;
-    margin-top: 27px; */
+    margin-top: 27px;
    
     
 } 
 
 .hero-row, h1 {
-    /* display: flex;
+    display: flex;
     justify-content: space-between;
     font-weight: extra-bold;
     font-size: 48px;
     color: #ffffff;
-    width: 70%; */
+    width: 70%;
 }
 
 .hero-row, p {
-    /* font-size: 18px; */
-}
+    font-size: 18px;
+} */
