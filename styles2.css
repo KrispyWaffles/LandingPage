@@ -25,8 +25,31 @@ nav ul {
 
 .container {
     display: flex;
-
+    justify-content: space-evenly;
+    padding: 110px;
+    
+    /* width: 70%; */
 }
+
+/* .hero-text {
+    display: flex;
+    justify-content: space-evenly;
+    
+    
+} */
+
+p {
+    display: flex;
+    width: 40%;
+}
+
+
+/* .hero-text h1 {
+    display: flex;
+    order: 1;
+    justify-content: flex-start;
+} */
+
 
 
 img {
