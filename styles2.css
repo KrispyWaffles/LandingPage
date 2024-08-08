@@ -1,9 +1,38 @@
+header {
+    display: flex;
+    justify-content: center;
+}
 
 
 
 
+nav {
+    display: flex;
+    justify-content: space-between;
+    width: 70%;
+    text-decoration: none;
+}
+
+nav ul {
+    display: flex;
+    gap: 20px;
+    text-decoration: none;
+    list-style-type: none;
+    margin: 0;
+    
+}
 
 
+.container {
+    display: flex;
+
+}
+
+
+img {
+    height: 180px;
+    width: auto;
+}
 
 
 
