@@ -1,48 +1,130 @@
-header {
-    display: flex;
-    justify-content: center;
+* {
+    margin: 0;
+    padding: 0;
 }
 
 
+header {
+    display: flex;
+    justify-content: center;
+    background-color: #1f2937;
+    
+}
 
 
 nav {
     display: flex;
     justify-content: space-between;
     width: 70%;
-    text-decoration: none;
+    padding: 10px;
 }
 
 nav ul {
     display: flex;
     gap: 20px;
-    text-decoration: none;
+    /* text-decoration: none; */
     list-style-type: none;
     margin: 0;
-    
+   
 }
 
+a {
+    text-decoration: none;
+    /* list-style-type: none; */
+    color: #fff;
+    font-weight: bold;
+}
 
 .container {
     display: flex;
-    justify-content: space-evenly;
+    justify-content: space-between;
+    background-color: #1f2937;
     padding: 110px;
-    
+       
     /* width: 70%; */
 }
 
+.info-container {
+    display: flex;
+    flex-direction: row;
+    /* background-color: #f8eba120; */
+    padding: 110px;
+    margin: 10px;
+    
+}
+
+.info-container h1 {
+    display: flex;
+    color: black;
+    text-align: center;
+    padding-top: 0;
+}
+
+.box {
+    width: 150px;
+    height: 150px;
+    border-color: 1px dashed #ff734d;
+    border: #1f2937;
+    background-color: #388286;
+    text-align: center;
+   
+    gap: 15px;
+    margin: 10px;
+}
+
+
+
+.feedback-container {
+    background-color: #e5e7eb;
+    padding: 110px;
+    margin: 0;
+}
+
+.CTA-container {
+    background-color: #fff;
+    padding: 110px;
+    margin: 0;
+}
+
+.CTA-container h1 {
+    color: #388286;
+}
+
+
+footer {
+    display: flex;
+    justify-content: center;
+}
+
+.footer {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #1f2937;
+    padding: 30px;
+    margin: 0;
+}
+
+.footer p {
+    color: #fff;
+}
+
+
 /* .hero-text {
     display: flex;
-    justify-content: space-evenly;
-    
+    justify-content: space-evenly;  
     
 } */
+
+h1 {
+    color: #fff;
+}
 
 p {
     display: flex;
     width: 40%;
+    color: #fff;
 }
-
 
 /* .hero-text h1 {
     display: flex;
@@ -50,12 +132,12 @@ p {
     justify-content: flex-start;
 } */
 
-
-
 img {
     height: 180px;
     width: auto;
 }
+
+
 
 
 
