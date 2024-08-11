@@ -25,20 +25,40 @@ nav ul {
     
 }
 
-.hero-container {
+.container {
     width: 100%;
     height: 100vh;
     background-color: #1f2937;
     
 }
 
-.hero-content {
+.hero-text button {
+    background-color: #3882f6;
+    color: #fff;
+    padding: 15px 32px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 12px;
+}
+
+button {
+    background-color: #3882f6;
+    color: #fff;
+    padding: 15px 32px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 12px;
+}
+
+/* .hero-content {
     display: flex;
     justify-content: center;
     text-decoration: none;
     color: #ffffff;
     margin-top: 27px;
-}
+} */
 
 a { 
     text-decoration: none;
@@ -146,4 +166,7 @@ img {
 
 .hero-row, p {
     font-size: 18px;
-} */
+} */<!-- HTML !-->
+<button class="button-74" role="button">Button 74</button>
+
+/* CSS */
