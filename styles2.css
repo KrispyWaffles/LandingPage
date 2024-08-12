@@ -55,6 +55,23 @@ button {
     border-radius: 5px;
 }
 
+.btn {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: #3882f6;
+    color: #fff;
+    padding: 15px 15px;
+    text-align: center;
+    text-decoration: none;
+    /* display: inline-block;     */
+    font-size: 12px;
+    border-radius: 5px;
+    height: 10px;
+    width: 50px;
+    margin-left: 500px;
+}
+
 .info-container {
     display: flex;
    flex-flow: column;
@@ -135,18 +152,24 @@ button {
 
 
 .feedback-container {
+    display: flex;
+    flex-flow: row;
+    justify-content: center;
     background-color: #e5e7eb;
     padding: 110px;
     margin: 0;
+    text-align: center;
 }
 
 .square {
-    display: flex;
+    /* display: flex;
     justify-content: center;
-    align-items: center;
+    flex-direction: row;
+    align-items: center; */
     background-color: rgb(109, 129, 136);
     height: 300px;
     width: 600px;
+
 }
 
 
@@ -154,8 +177,8 @@ button {
 
 .square h1 {
     color: black;
-    justify-content: center;
-    align-items: center;
+    /* justify-content: center; */
+    /* align-items: center; */
     text-align: center;
     padding-bottom: 10px;
 }
@@ -169,6 +192,9 @@ button {
 }
 
 .CTA-container {
+    display: flex;
+    flex-flow: row;
+    justify-content: center;
     background-color: #fff;
     padding: 110px;
     margin: 0;
