@@ -37,9 +37,9 @@ a {
 
 .container {
     display: flex;
-    justify-content: space-between;
+    justify-content: space-evenly;
     background-color: #1f2937;
-    padding: 110px;
+    padding: 100px 15%;
        
     /* width: 70%; */
 }
@@ -47,7 +47,7 @@ a {
 button {
     background-color: #3882f6;
     color: #fff;
-    padding: 15px 32px;
+    padding: 7px 15px;
     text-align: center;
     text-decoration: none;
     display: inline-block;
@@ -69,7 +69,7 @@ button {
     border-radius: 5px;
     height: 10px;
     width: 50px;
-    margin-left: 500px;
+    margin: auto;
 }
 
 .info-container {
@@ -141,6 +141,7 @@ button {
     font-family: Arial, Helvetica, sans-serif;
     width: 15%;
     justify-content: center;
+    font-size: 18px;
    
     
 }
@@ -159,15 +160,31 @@ button {
     padding: 110px;
     margin: 0;
     text-align: center;
+    height: 200px;
+   
+}
+
+.feedback-container p {
+   font-size: 28px;
+   font-family: cursive;
+   justify-content: center;
+}
+
+
+
+strong {
+    display: flex;
+    justify-content: flex-end;
+    align-items: flex-end;
 }
 
 .square {
     /* display: flex;
     justify-content: center;
     flex-direction: row;
-    align-items: center; */
+    align-items: center;
     background-color: rgb(109, 129, 136);
-    height: 300px;
+    height: 300px; */
     width: 600px;
 
 }
@@ -175,13 +192,14 @@ button {
 
 
 
-.square h1 {
+/* .square h1 {
     color: black;
-    /* justify-content: center; */
-    /* align-items: center; */
+    justify-content: center;
+    align-items: center;
     text-align: center;
     padding-bottom: 10px;
-}
+    
+} */
 
 .square p {
     color: black;
@@ -206,14 +224,15 @@ button {
     /* align-items: center;
     justify-content: center; */
     background-color: lightblue;
-    height: 300px;
-    width: 600px;
+    height: 200px;
+    width: 800px;
 }
 
 .CTA-container h1 {
     color: black;
     text-align: center;
     padding-bottom: 10px;
+    margin-top: 50px;
 }
 
 .CTA-container p {
@@ -222,6 +241,9 @@ button {
     justify-content: center;
     align-items: center;
     width: 100%;
+    margin-bottom: 25px;
+    
+    
 }
 
 /* .strong {
@@ -244,6 +266,9 @@ footer {
 }
 
 .footer p {
+    text-align: center;
+    justify-content: center;
+    align-items: center;
     color: #fff;
 }
 
