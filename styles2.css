@@ -56,6 +56,8 @@ button {
     display: inline-block;
     font-size: 12px;
     border-radius: 5px;
+    font-family: Jost;
+    font-size: 12px;
 }
 
 
@@ -234,15 +236,20 @@ strong {
     text-align: center;
     text-decoration: none;
     /* display: inline-block;     */
-    font-size: 12px;
+    font-size: 16px;
+    font-family: Jost;
     border-radius: 5px;
-    height: 10px;
-    width: 50px;
-    /* margin: auto; */
+    height: 20px;
+    width: 65px;
+    margin-left: 55rem;
+    margin-top: -5.2rem;
+    
+    
 }
 
-.CTA-container .btn {
-    margin-right: 10px;
+.btn {
+   /* justify-content: center;
+   align-items: center; */
 }
 
 .cube {
