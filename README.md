@@ -9,7 +9,6 @@
 
 <br>
 <br>
-<br>
 
 
 # Image of Provided reference layout
@@ -18,14 +17,12 @@
 ![reference layout](./referenceimages/layout.png)
 
 <br>
-<br>
 
 # My layout design 
 <br>
 
 ![reference layout](/images/LPscreenshot.png)
 
- <br>
  <br>
 
  # Important Details
