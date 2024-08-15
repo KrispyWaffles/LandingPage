@@ -1,3 +1,6 @@
+
+
+
 * {
     margin: 0;
     padding: 0;
@@ -149,28 +152,35 @@ button {
 
 .feedback-container {
     display: flex;
-    flex-flow: row;
-    justify-content: center;
+    /* flex-flow: row; */
+    justify-content: right;
     background-color: #e5e7eb;
-    padding: 110px;
+    padding: 100px;
     margin: 0;
-    text-align: center;
+    /* text-align: end; */
     height: 200px;
    
 }
 
 .feedback-container p {
-   font-size: 28px;
-   font-family: cursive;
+   font-size: 30px;
+   font-family: Yellowtail;
    justify-content: center;
+   margin-left: 15rem;
+   align-items: center;
+    
 }
 
 
 
 strong {
-    display: flex;
-    justify-content: flex-end;
-    align-items: flex-end;
+    justify-content: center;
+    color: black;
+    font-size: 14px;
+    margin-top: 13rem;
+    margin-right: 13rem;
+    font-family: Jost;
+    /* align-items: flex-end; */
 }
 
 .square {
